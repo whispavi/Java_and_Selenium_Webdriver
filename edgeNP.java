@@ -42,7 +42,7 @@ public class edgeNP extends Data {
     @Test //work with Preshop
     public void edgenp () throws InterruptedException {
 
-          System.setProperty("webdriver.edge.driver", "C:\\Users\\holder\\IdeaProjects\\Web\\msedgedriver.exe");
+          System.setProperty("webdriver.edge.driver", "C:\\Users\\***");
           WebDriver driver = new EdgeDriver();
           Data getDate = new Data();
           driver.get(getDate.getUrlPS);
@@ -72,29 +72,13 @@ public class edgeNP extends Data {
           driver.findElement(btnContinue).click();
           //sleep(2000);
 
-          //click on popup(alert)
-       // Alert alert = driver.switchTo().alert();
-        //Alert alert = wait.until(alertIsPresent());
-        //sleep(2000);
-        //alert.accept();
-
-
-
-
-        //- pause
-          //sleep(3000);
-          //escape browser
-          //driver.quit();
-
-
-
 
      }
 
      @Test //negative testing email
      public void negEdgenp() {
 
-          System.setProperty("webdriver.edge.driver", "C:\\Users\\holder\\IdeaProjects\\Web\\msedgedriver.exe");
+          System.setProperty("webdriver.edge.driver", "C:\\Users\\***");
           WebDriver driver = new EdgeDriver();
           Data getDate = new Data();
 
@@ -113,7 +97,7 @@ public class edgeNP extends Data {
     @Test //work with NoPass
     public void edgesitenp () throws InterruptedException {
 
-        System.setProperty("webdriver.edge.driver", "C:\\Users\\holder\\IdeaProjects\\Web\\msedgedriver.exe");
+        System.setProperty("webdriver.edge.driver", "C:\\Users\\***");
         WebDriver driver = new EdgeDriver();
         Data getDate = new Data();
         driver.get(getDate.getUrl);
@@ -140,30 +124,9 @@ public class edgeNP extends Data {
 
         driver.findElement(btnContinueNP).click();
         sleep(3000);
-        //driver.findElement(btnRegOnDevice).click();
-        //driver.findElement(btnContinue).click();
-        //sleep(4000);
-
-        //click on popup(alert)
-//        Alert alert = driver.switchTo().alert();
-//        alert.accept();
-
-
-        //- pause
-        //sleep(3000);
-        //escape browser
-        //driver.quit();
-
+        
     }
-//    @Test
-//    public void gitcommit () {
-//
-//        System.setProperty("webdriver.edge.driver", "C:\\Users\\holder\\IdeaProjects\\Web\\msedgedriver.exe");
-//        WebDriver driver = new EdgeDriver();
-//        Data getDate = new Data();
-//        driver.get(getDate.getUrlGit);
-//
-//    }
+
 
 
 }
