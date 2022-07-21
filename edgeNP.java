@@ -39,7 +39,7 @@ public class edgeNP extends Data {
 
 
 
-    @Test //work with Preshop
+    @Test //work with Pre***
     public void edgenp () throws InterruptedException {
 
           System.setProperty("webdriver.edge.driver", "C:\\Users\\***");
@@ -94,7 +94,7 @@ public class edgeNP extends Data {
      }
 
 
-    @Test //work with NoPass
+    @Test //work with No***
     public void edgesitenp () throws InterruptedException {
 
         System.setProperty("webdriver.edge.driver", "C:\\Users\\***");
